@@ -46,6 +46,10 @@ Set the global  editor
 git config --global core.editor emacs
 ```
 
+```sh
+git commit -m "Guide use GitHub"
+```
+
 ## Branches
 
 ## Remotes
@@ -56,7 +60,7 @@ git config --global core.editor emacs
 
 ## Add
 
-When we want to stage changes that willbe included in the commit 
+When we want to stage changes that will be included in the commit 
 We can use the . to add all possible files.
 ```
 git add Readme.md
@@ -70,7 +74,7 @@ This is useful when you to revert all files not to be not commited
 
 ```
 git add .
-git resert
+git reset
 ```
 > git reset will revet a git add .
 
@@ -94,5 +98,16 @@ When you first install Git on a machine you are suppose to set up your name and 
 
 ```sh
 git config --global user.name "LamGiaThinh"
-git config --global user.email johndoe@example.com
+git config --global user.email lamgiathinh05@gmail.com
+```
+
+## Log
+git log will show recent git commits to the git tree
+
+## Push
+
+when we want to push a repo to our remote origin
+
+```
+git push
 ```
